@@ -27,7 +27,6 @@ ul {
     padding: 0;
     list-style: none;
 }
-
 .list1, .list2 {
    margin: 2rem;
    font-size: 1.3rem;
@@ -44,17 +43,22 @@ ul {
     font-size: 2rem;
 }
 
-div {
-    display: inline-block;
+section {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 2rem;
     padding: 0 5rem;
+}
+div {
+    margin: 3rem;
 }
 p {
     color:peru;
     font-weight: normal;
     font-size: 1.5rem;
 }
+
 .zoom:hover {
-    transform:scale(1.1);
+    transform:scale(1.01);
 }

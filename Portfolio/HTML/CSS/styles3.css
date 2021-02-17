@@ -27,25 +27,7 @@ ul {
     padding: 0;
     list-style: none;
 }
-ul {
-    display: flex;
-    justify-content: center;
-    margin: 3rem 1rem;
-    padding: 0;
-    list-style: none;
-}
-.list1, .list2 {
-    margin: 2rem;
-    font-size: 1.3rem;
-    font-style: italic;
-    padding: 0.5rem;
- }
- .list2 {
-     font-weight: bolder;
- }
- .list1:link, .list2:link {
-     color: black;
- }
+
  .list1, .list2 {
     margin: 2rem;
     font-size: 1.3rem;
@@ -60,4 +42,9 @@ ul {
  }
  .list1:hover, .list2:hover {
      font-size: 2rem;
+ }
+ p {
+     margin: 0 auto;
+     width: fit-content;
+
  }
